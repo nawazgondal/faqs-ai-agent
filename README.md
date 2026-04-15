@@ -5,6 +5,11 @@
 **A production-ready semantic search FAQ chatbot with FastAPI backend, Angular frontend, and Ollama/Mistral LLM integration.**
 
 ---
+## Use Cases
+- Customer support chatbot
+- Website FAQ assistant
+- Internal knowledge base chatbot
+- Documentation assistant
 
 ## 🎯 Quick Start
 
