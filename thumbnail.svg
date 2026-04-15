@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- Background Gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f093fb;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  
+  <!-- Left Section - Chat Interface -->
+  <g>
+    <!-- Chat Box Container -->
+    <rect x="50" y="80" width="520" height="480" rx="20" fill="white" opacity="0.95"/>
+    
+    <!-- Title -->
+    <text x="70" y="130" font-size="24" font-weight="bold" fill="#333">FAQ AI Chatbot</text>
+    
+    <!-- User Message -->
+    <rect x="350" y="160" width="200" height="50" rx="15" fill="#667eea"/>
+    <text x="365" y="190" font-size="14" fill="white">What is AI?</text>
+    
+    <!-- Bot Message -->
+    <rect x="70" y="230" width="280" height="80" rx="15" fill="#f0f0f0"/>
+    <text x="90" y="260" font-size="13" fill="#333">AI is artificial intelligence - the</text>
+    <text x="90" y="285" font-size="13" fill="#333">simulation of human intelligence</text>
+    <text x="90" y="310" font-size="13" fill="#333">in machines.</text>
+    
+    <!-- Related FAQs Box -->
+    <rect x="70" y="330" width="450" height="90" rx="10" fill="#f9f9f9" stroke="#667eea" stroke-width="2"/>
+    <text x="85" y="355" font-size="12" font-weight="bold" fill="#667eea">📌 Related FAQs:</text>
+    <circle cx="95" cy="380" r="18" fill="#667eea" opacity="0.2"/>
+    <text x="125" y="388" font-size="11" fill="#333">[Q] What is ML?</text>
+    <circle cx="265" cy="380" r="18" fill="#667eea" opacity="0.2"/>
+    <text x="295" y="388" font-size="11" fill="#333">[Q] What is DL?</text>
+  </g>
+  
+  <!-- Right Section - System Architecture -->
+  <g>
+    <!-- Main Title -->
+    <text x="650" y="130" font-size="28" font-weight="bold" fill="white">FAQS AI Agent</text>
+    
+    <!-- Subtitle -->
+    <text x="650" y="165" font-size="16" fill="rgba(255,255,255,0.9)">Semantic Search + LLM Chatbot</text>
+    
+    <!-- Architecture Stack -->
+    <g>
+      <!-- Layer 1: Frontend -->
+      <rect x="650" y="200" width="500" height="70" rx="10" fill="white" opacity="0.2"/>
+      <circle cx="680" cy="235" r="18" fill="#f093fb"/>
+      <text x="720" y="242" font-size="16" font-weight="bold" fill="white">Angular Frontend</text>
+      <text x="720" y="265" font-size="12" fill="rgba(255,255,255,0.8)">Modern Chat UI • Responsive Design</text>
+      
+      <!-- Arrow -->
+      <line x1="900" y1="280" x2="900" y2="310" stroke="rgba(255,255,255,0.5)" stroke-width="2"/>
+      
+      <!-- Layer 2: API -->
+      <rect x="650" y="310" width="500" height="70" rx="10" fill="white" opacity="0.2"/>
+      <circle cx="680" cy="345" r="18" fill="#f093fb"/>
+      <text x="720" y="352" font-size="16" font-weight="bold" fill="white">FastAPI Backend</text>
+      <text x="720" y="375" font-size="12" fill="rgba(255,255,255,0.8)">5 Endpoints • REST API • CORS Enabled</text>
+      
+      <!-- Arrow -->
+      <line x1="900" y1="390" x2="900" y2="420" stroke="rgba(255,255,255,0.5)" stroke-width="2"/>
+      
+      <!-- Layer 3: AI Pipeline -->
+      <rect x="650" y="420" width="500" height="90" rx="10" fill="white" opacity="0.2"/>
+      <circle cx="680" cy="460" r="18" fill="#f093fb"/>
+      <text x="720" y="467" font-size="16" font-weight="bold" fill="white">AI Intelligence Layer</text>
+      <text x="720" y="490" font-size="12" fill="rgba(255,255,255,0.8)">🧠 SentenceTransformer • ⚡ FAISS Search</text>
+      <text x="720" y="508" font-size="12" fill="rgba(255,255,255,0.8)">🤖 Ollama + Mistral LLM • 📊 Vector Database</text>
+    </g>
+  </g>
+  
+  <!-- Bottom Features -->
+  <g>
+    <!-- Feature 1 -->
+    <circle cx="120" cy="590" r="12" fill="#f093fb"/>
+    <text x="145" y="598" font-size="12" fill="white">Semantic Search</text>
+    
+    <!-- Feature 2 -->
+    <circle cx="380" cy="590" r="12" fill="#f093fb"/>
+    <text x="405" y="598" font-size="12" fill="white">Offline Capable</text>
+    
+    <!-- Feature 3 -->
+    <circle cx="640" cy="590" r="12" fill="#f093fb"/>
+    <text x="665" y="598" font-size="12" fill="white">Production Ready</text>
+    
+    <!-- Feature 4 -->
+    <circle cx="900" cy="590" r="12" fill="#f093fb"/>
+    <text x="925" y="598" font-size="12" fill="white">3000+ Doc Lines</text>
+  </g>
+  
+  <!-- Version Badge -->
+  <g>
+    <rect x="1000" y="30" width="150" height="40" rx="8" fill="white" opacity="0.2"/>
+    <text x="1020" y="58" font-size="14" font-weight="bold" fill="white">v1.0.0 ✅</text>
+  </g>
+</svg>

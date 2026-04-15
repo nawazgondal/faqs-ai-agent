@@ -1,0 +1,22 @@
+[
+    {
+        "question": "What is AI?",
+        "answer": "AI stands for Artificial Intelligence, which is the simulation of human intelligence in machines."
+    },
+    {
+        "question": "How does machine learning work?",
+        "answer": "Machine learning works by training algorithms on data to make predictions or decisions without being explicitly programmed."
+    },
+    {
+        "question": "What is deep learning?",
+        "answer": "Deep learning is a subset of machine learning that uses neural networks with many layers to model complex patterns."
+    },
+    {
+        "question": "What are the benefits of AI?",
+        "answer": "Benefits of AI include automation of tasks, improved decision-making, and innovation in various fields."
+    },
+    {
+        "question": "What is natural language processing?",
+        "answer": "Natural language processing is a branch of AI that helps computers understand and respond to human language."
+    }
+]
